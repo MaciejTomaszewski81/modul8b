@@ -7,10 +7,10 @@ public class TicketApp {
         engine.ticketCalculator(ticket1);
         engine.ticketCalculator(ticket2);
         engine.ticketCalculator(ticket3);
-        engine.ticketInfo(ticket1);
+        engine.showTicketInfo(ticket1);
         System.out.println();
-        engine.ticketInfo(ticket2);
+        engine.showTicketInfo(ticket2);
         System.out.println();
-        engine.ticketInfo(ticket3);
+        engine.showTicketInfo(ticket3);
     }
 }
